@@ -10,7 +10,7 @@ const (
 	bchbtc
 )
 
-func (code ProductCode) string() string {
+func (code ProductCode) String() string {
 	switch code {
 	case Btcjpy:
 		return "BTC_JPY"
